@@ -1,0 +1,97 @@
+
+begin
+numeric p,n,r, si
+display enter the p,n,r ;
+input p,n,r
+si=(p*n*r)/100
+print si;
+end
+
+
+begin
+declare a,b,c,n
+display enter the a,b,c
+input a,b,c
+n=b*b-4*a*c
+print n
+end
+
+area of square 
+
+begin 
+declare l,area
+display enter l ;
+input l
+area=l*l
+print area ;
+end
+
+perimeter of square
+
+begin 
+declare l,peri
+display enter l ;
+input l
+peri=l*4
+print peri ;
+end
+
+area of triangle
+
+begin 
+declare train, b, h
+display enter b, h ;
+input b,h
+train=1/2*b*h
+print train;
+end
+
+
+
+perimeter of triangle
+
+begin
+declare a,b,c,peri
+display enter a,b,c;
+input a,b,c
+peri=a+b+c
+print peri;
+end
+
+area of circle
+begin
+declare area,r
+display enter r
+input r
+area=pi*r*r
+print area;
+end
+
+perimeter of circle
+
+begin
+declare peri,r
+display enter r
+input r
+peri=2*pi*r
+print peri;
+end
+
+
+swapping number
+
+begin
+
+    declare the variables a,b,temp
+    read a,b
+    temp = a
+    a = b
+    b = temp
+    print a,b
+
+end
+
+
+
+
+
